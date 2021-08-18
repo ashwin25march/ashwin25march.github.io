@@ -18,17 +18,17 @@ background: black;
 .navbar .navbar-brand{
 font-size: 25px;
 font-weight: 800;
-color: #29f700 !important;
+color: #0000ff !important;
 }
 #navbarSupportedContent a{
 color: #fff;
 border-bottom: 2px solid transparent;
 }
 #navbarSupportedContent a:hover{
-    border-bottom: 2px solid #29f700;
+    border-bottom: 2px solid #0000ff;
 }
 #navbarSupportedContent button{
-background: #29f700;
+background: #0000ff;
 border-radius: 15px;
 }
 section{
@@ -39,7 +39,7 @@ justify-content: center;
 align-items: center;
 }
 #home{
-background:url(images/bg.png);
+background:blue;
 background-size: cover;
 background-position: center;
 flex-direction: column;
@@ -54,9 +54,20 @@ text-shadow: 0px 1px 0px #CCC,
              0px 3px 0px #CCC,
              0px 4px 0px #CCC,
              0px 5px 0px #CCC,
-             0px 6px 0px #CCC,
-             0px 7px 0px #CCC;
+             0px 6px 0px #CCC;
 }
+#home h3{
+    font-size: 40px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 3px 0px #CCC,
+                 0px 4px 0px #CCC,
+                 0px 5px 0px #CCC,
+                 0px 6px 0px #CCC;
+    }
 #home p{
     font-size: 18px;
     color: white;
@@ -66,7 +77,7 @@ text-shadow: 0px 1px 0px #CCC,
     height: 45px;
 }
 .signin{
-background: green !important;
+background: black !important;
 color: white;
 box-shadow: 2px 4px 5px;
 }
@@ -74,6 +85,9 @@ box-shadow: 2px 4px 5px;
     font-weight: 800;
     font-size: 50px;
     color: white;
+}
+#services{
+    background: #e5e5e5;
 }
 #products{
 background: #5e5e5e;
@@ -87,7 +101,9 @@ background: #5e5e5e;
     height: 300px;
     background: #5e5e5e !important;
 }
-
+#contact{
+    background: #0000ff;
+    }
 
 
 
