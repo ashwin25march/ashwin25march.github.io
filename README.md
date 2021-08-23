@@ -4,4 +4,3 @@ ashwin25march.github.io
 #show it like a real website when mama tell
 #Show it to kavin anna
 #Ask kavin anna to create a website like this with template
-$Ask mama to create a website like this 
