@@ -7,12 +7,12 @@
     <link rel="icon" href="logo.png">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='scripts.js'></script>
+  
 </head>
 <body>
     <div class="container">
         <div class="calculator">
-            <input type="text" placeholder="0">
+            <input type="text" placeholder="0" id="output">
             <button onclick="Clear()">Cl</button>
             <button onclick="del()">Del</button>
             <button onclick="display('%')">%</button>
@@ -20,7 +20,7 @@
             <button onclick="display('7')">7</button>
             <button onclick="display('8')">8</button>
             <button onclick="display('9')">9</button>
-            <button onclick="display('x')">x</button>
+            <button onclick="display('*')">*</button>
             <button onclick="display('4')">4</button>
             <button onclick="display('5')">5</button>
             <button onclick="display('6')">6</button>
@@ -34,5 +34,28 @@
             <button onclick="calcuate()" class="eqal">=</button>
         </div>
     </div>
+    <script>
+        let outputScreen = document.getElementById("output");
+
+    function display(num){
+        outputScreen.value += num;
+    }
+    function calcuate(){
+        try{
+            outputScreen.value = eval (outputScreen.value);
+        }
+        catch(err){
+            alert("Sorry Invalid")
+        }
+    }
+    function Clear() {
+        outputScreen.value = "";
+        
+    }
+    function del(){
+        outputScreen.value = outputScreen.value.slice(0, -1);
+    }
+
+    </script>
 </body>
 </html>
