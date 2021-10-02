@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: black;
+}
+.logo{
+    color: darkcyan;
+    padding-top: 20px;
+}
+.nav-body{
+    padding-left: 80%;
+    padding-bottom: 10px;
+}
+.nav-link{
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+.nav-link-active{
+    padding-right: 50px;
+    text-decoration: none;
+    color: gold;
+}
+.photos{
+    background-color: peru;
+}
