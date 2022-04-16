@@ -8,6 +8,15 @@ canvas {
     border:1px solid #d3d3d3;
     background-color: #f1f1f1;
 }
+.game--restart {
+    background-color: #15ff00;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    color: #6fc2be;
+    box-shadow: 2px 2px 2px 2px #b8b969c2;
+    border: 3px solid #04c0b2;
+}
 </style>
 </head>
 <body onload="startGame()">
@@ -143,10 +152,12 @@ function moveright() {
 }
 </script>
 <div style="text-align:center;width:480px;">
-  <button onclick="moveup()">UP</button><br><br>
-  <button onclick="moveleft()">LEFT</button>
-  <button onclick="moveright()">RIGHT</button><br><br>
-  <button onclick="movedown()">DOWN</button>
+  <button class="game--restart" onclick="moveup()">UP</button><br><br>
+  <button class="game--restart" onclick="moveleft()">LEFT</button>
+  <button class="game--restart" onclick="moveright()">RIGHT</button><br><br>
+  <button class="game--restart" onclick="movedown()">DOWN</button><br><br><br>
+  <a href="cubeblocks.html"><button class="game--restart" >RETRY</button></a>
+  <a href="index.html"><button class="game--restart" >HOME</button></a>
 </div>
 </body>
 </html>

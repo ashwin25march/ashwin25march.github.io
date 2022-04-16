@@ -1,6 +1,12 @@
 body {
     font-family: "Arial", sans-serif;
 }
-.gau{
-    background-color: rgb(31, 107, 107);
+.game--restart {
+    background-color: #b8b969c2;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #15ff00;
+    box-shadow: 2px 2px 2px 2px #04c0b2;
+    border: 3px solid #6fc2be;
 }
